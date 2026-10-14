@@ -1,7 +1,3 @@
-import rythmoImage from '@/assets/rythmoshow-preview.asset.json'
-import kitchenImage from '@/assets/kitchen-preview.asset.json'
-import movieImage from '@/assets/movie-preview.asset.json'
-
 export interface Project {
   title: string
   tagline: string
@@ -22,7 +18,7 @@ export const projects: Project[] = [
     liveUrl: 'https://www.rythmoshow.com/',
     techStack: ['React', 'Tailwind', 'Vercel', 'Resend API', 'Custom Domain', 'Admin Dashboard'],
     featured: true,
-    image: rythmoImage.url,
+    image: '/rythmoshow.jpg',
   },
   {
     title: 'Little Coast Kitchen',
@@ -32,7 +28,7 @@ export const projects: Project[] = [
     liveUrl: 'https://little-coast-kitchen-nine.vercel.app/',
     techStack: ['React', 'Tailwind', 'Supabase', 'Vercel', 'Automated Workflows'],
     featured: true,
-    image: kitchenImage.url,
+    image: '/littlecoast.jpg',
   },
   {
     title: 'Movie Night Picker',
@@ -42,6 +38,6 @@ export const projects: Project[] = [
     liveUrl: 'https://film-mood-finder.lovable.app/',
     techStack: ['Interactive UI', 'Lovable', 'React', 'AI Recommendations'],
     featured: true,
-    image: movieImage.url,
+    image: '/movienight.jpg',
   },
 ]
